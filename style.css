@@ -300,4 +300,22 @@ header{
 
 .conhecimento-header h3{
     font-family: var(--font-secundary);
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.conhecimento-text{
+    font-family: var(--font-secundary);
+    margin-top: 1rem;
+}
+
+.conhecimentos-img-wrapper{
+    grid-column: 7 / 11;
+    grid-row: 2 / 6;
+    width: 100%;
+}
+
+.conhecimentos-img-wrapper img{ /*envelopar a img no centro */
+    object-fit: cover;
+    width: 100%;
 }
