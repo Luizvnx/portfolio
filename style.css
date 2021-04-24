@@ -316,6 +316,7 @@ header{
     grid-column: 6 / 11;
     grid-row: 2 / 6;
     width: 100%;
+    
 }
 
 .conhecimentos-img-wrapper img{ /*envelopar a img no centro */
@@ -388,7 +389,7 @@ header{
     width: 80%;
     margin-bottom: 1.5rem;
 }
-
+ei veja as msg 
 .card-info button{
     width: 8rem;
     height: 2.5rem;
