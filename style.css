@@ -100,6 +100,20 @@ header{
     background-color: rgba(0,0,0,8); /* red, green, blue, alpha */
 }
 
+.img-profile{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.img-profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4rem;
+    box-shadow: 3px 4px 14px 1px;
+    margin-left: 15px;
+}
+
 .img-wrapper img{
     width: 100%;
     height: 100%;
@@ -353,7 +367,7 @@ header{
 
 .card:hover .card-img-wrapper img{
     opacity: .3;
-}
+} 
 
 .card-info{
     opacity: 0;
@@ -403,6 +417,12 @@ header{
     border-radius: .5rem;
     border: none;
     box-shadow: 0 .1rem .8rem rgba(0, 0, 0, 4);
+}
+
+.card-info button:hover{
+    color: #262626;
+    transition: .4s;
+    opacity: .8;
 }
 
 .card:hover .card-info{
