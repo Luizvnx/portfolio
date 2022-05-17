@@ -112,6 +112,7 @@ header{
     border-radius: 4rem;
     box-shadow: 3px 4px 14px 1px;
     margin-left: 15px;
+    animation: moveBanner 1s 0.5s forwards;
 }
 
 .img-wrapper img{
@@ -174,6 +175,16 @@ header{
     cursor: pointer;
     opacity: 0;
     animation: moveBanner 1s 0.9s forwards;
+}
+
+.banner img{
+    width: 100px;
+    height: 100px;
+    border-radius: 4rem;
+    box-shadow: 3px 4px 14px 1px;
+    margin-left: 15px;
+    animation: moveBanner 1s 0.5s forwards;
+    margin-bottom: 15px;
 }
 
 @keyframes moveBanner{
